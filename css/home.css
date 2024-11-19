@@ -1,22 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+*{ 
+  margin: 0;
+  padding: 0;
+}
 
-*{
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  body {
-    background-image: url("../img/plantillaHome.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    font-family: "Inknut Antiqua", serif;
-  }
+body {
+  background-image: url("../img/plantillaHome.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
 
+.boxgrande {
+  background-color: rgba(236, 236, 241, 0.5);
+  height: 500px;
+  width: 90%;
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 52px;
+  color: rgb(17, 30, 145);
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.boxtexto h1 {
+  font-size: 7.5rem; 
+  color: rgb(17, 30, 145); 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.boxtexto h2 {
+  font-size: 2rem; 
+  color: rgb(17, 30, 145); 
+  font-weight: 500;
+  margin-top: 0;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.img {
+  width: 300px;
+  height: auto;
+  margin-left: 20px;
+}
   .boxtexto{
     height:200px;
     width:2000px;
-
     line-height: 0px;
     }
     

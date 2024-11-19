@@ -4,19 +4,20 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
+}body {
     background-image: url("../img/INICIO.png");
     background-repeat: no-repeat;
-    object-fit: cover;
-    background-size: cover;
-    height: 100px ;
+    background-size: cover; /* o 'contain' dependiendo del efecto que desees */
+    background-position: center; /* Asegura que la imagen se centre */
+    height: 100%; /* Usamos 100% para que ocupe toda la altura de la ventana */
+    margin: 0; /* Asegura que no haya márgenes adicionales */
+    background-attachment: fixed; /* Hace que el fondo quede fijo mientras haces scroll */
+    overflow-x: hidden; /* Evita que haya desplazamiento horizontal */
     display: flex;
     justify-content: center;
-    justify-content: space-around;
-    background-attachment: fixed;
-
+    align-items: center; /* Asegura que cualquier contenido se centre en la pantalla */
 }
+
 .icon{
     height: 20px;
     width: auto;
